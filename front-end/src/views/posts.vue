@@ -2,7 +2,7 @@
 <div id='content' style="margin-top:20px;">
   <el-row style="margin:auto auto;">
     <el-col>
-      <el-input label="李家俊是傻逼" type="textarea" style="width: 50%;margin:auto auto;" :autosize="{ minRows: 3, maxRows: 4}" placeholder="分享你的新鲜事" v-model="content" ref='inputRef'>
+      <el-input  type="textarea" style="width: 50%;margin:auto auto;" :autosize="{ minRows: 3, maxRows: 4}" placeholder="分享你的新鲜事" v-model="content" ref='inputRef'>
       </el-input>
     </el-col>
   </el-row>
